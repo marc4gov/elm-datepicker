@@ -102,7 +102,7 @@ To disable certain dates:
 -}
 defaultSettings : Settings
 defaultSettings =
-    { placeholder = "Please pick a date..."
+    { placeholder = "Kies een datum.."
     , classNamespace = "elm-datepicker--"
     , inputClassList = []
     , inputName = Nothing

@@ -39,59 +39,59 @@ formatDay : Date.Day -> String
 formatDay day =
     case day of
         Mon ->
-            "Mo"
+            "Ma"
 
         Tue ->
-            "Tu"
+            "Di"
 
         Wed ->
-            "We"
+            "Wo"
 
         Thu ->
-            "Th"
+            "Do"
 
         Fri ->
-            "Fr"
+            "Vr"
 
         Sat ->
-            "Sa"
+            "Za"
 
         Sun ->
-            "Su"
+            "Zo"
 
 
 formatMonth : Month -> String
 formatMonth month =
     case month of
         Jan ->
-            "January"
+            "Januari"
 
         Feb ->
-            "February"
+            "Februari"
 
         Mar ->
-            "March"
+            "Maart"
 
         Apr ->
             "April"
 
         May ->
-            "May"
+            "Mei"
 
         Jun ->
-            "June"
+            "Juni"
 
         Jul ->
-            "July"
+            "Juli"
 
         Aug ->
-            "August"
+            "Augustus"
 
         Sep ->
             "September"
 
         Oct ->
-            "October"
+            "Oktober"
 
         Nov ->
             "November"

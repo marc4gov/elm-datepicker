@@ -1,18 +1,19 @@
 {
-    "version": "3.0.0",
+	"version": "3.0.0",
+	"license": "BSD3",
     "summary": "A reusable date picker component",
-    "repository": "https://github.com/elm-community/elm-datepicker.git",
-    "license": "BSD3",
-    "source-directories": [
-        "examples/simple",
-        "src"
-    ],
-    "exposed-modules": [
-        "DatePicker"
-    ],
-    "dependencies": {
-        "elm-lang/core": "5.0.0 <= v < 6.0.0",
-        "elm-lang/html": "2.0.0 <= v < 3.0.0"
-    },
-    "elm-version": "0.18.0 <= v < 0.19.0"
+	"repository": "https://github.com/marc4gov/elm-datepicker.git",
+	"dependencies": {
+		"elm-lang/core": "5.0.0 <= v < 6.0.0",
+		"elm-lang/html": "2.0.0 <= v < 3.0.0"
+	},
+	"summary": "A reusable date picker component",
+	"source-directories": [
+		"examples/simple",
+		"src"
+	],
+	"exposed-modules": [
+		"DatePicker"
+	],
+	"elm-version": "0.18.0 <= v < 0.19.0"
 }
